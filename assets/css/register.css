@@ -1,0 +1,13 @@
+.error_text
+{
+ margin:0px;
+ color:#DF013A;	
+ font-weight:normal;
+ font-size:14px;
+}
+
+.errors {
+	color: #643131;
+	margin-top: 150px;
+	font-size: 15px;
+}
