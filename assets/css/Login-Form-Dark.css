@@ -1,0 +1,78 @@
+
+.login-dark form {
+  max-width:320px;
+  width:90%;
+  padding:40px;
+  border-radius:4px;
+  transform:translate(-50%, -50%);
+  background-color:rgba(0, 0, 0, 0.2);
+  position:absolute;
+  top:55%;
+  left:50%;
+  color:#000000;
+  box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+}
+
+.login-dark .illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:100px;
+
+}
+.login-dark form .form-control {
+  background:none;
+  border:none;
+  border-bottom:1px solid #434a52;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+}
+
+.login-dark form .btn-primary {
+  background:rgba(0, 0, 0, 0.7);
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:5px;
+  text-shadow:none;
+  outline:none;
+}
+
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+  background-color:rgba(0, 0, 0, 0.4);
+  outline:none;
+}
+
+.login-dark form .forgot {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:#020202;
+  opacity:0.9;
+  text-decoration:none;
+}
+
+.login-dark form .forgot:hover, .login-dark form .forgot:active {
+  opacity:1;
+  text-decoration:none;
+}
+
+.login-dark form .btn-primary:active {
+  background-color:rgba(0, 0, 0, 0.3);
+  transform:translateY(1px);
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+  color:#fff;
+  background-color:rgba(0, 0, 0, 0.3);
+  border-color:rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 460px) {
+  .login-dark form{
+    top: 40%;
+    margin-bottom: 0px;
+  }
+}
